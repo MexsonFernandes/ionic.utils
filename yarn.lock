@@ -16,6 +16,13 @@
   dependencies:
     tslib "^2.0.0"
 
+"@ionic-native/in-app-browser@^5.28.0":
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/in-app-browser/-/in-app-browser-5.28.0.tgz#0d47b1a0f1a08fb40a729ef8c37d6cdd16f11de7"
+  integrity sha512-HxzfbbybYv8xGnS1CvCAKyRuQ9aQ7QDcA0nnRspgmDD+hU196rUzvS2F0Lnhm9G9j9+952ypgFL2ftCcpvUVxg==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic/angular@^5.3.3":
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-5.3.3.tgz#10f637df2e5ff7483b9ddccfd272815850616cf4"
@@ -31,6 +38,11 @@
   dependencies:
     ionicons "^5.1.2"
     tslib "^1.10.0"
+
+"@types/cordova@latest":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-0.0.34.tgz#ea7addf74ecec3d7629827a0c39e2c9addc73d04"
+  integrity sha1-6nrd907Ow9dimCegw54smt3HPQQ=
 
 angular-webstorage-service@^1.0.2:
   version "1.0.2"

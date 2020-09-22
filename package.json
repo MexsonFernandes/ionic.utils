@@ -24,6 +24,7 @@
   "dependencies": {
     "@angular/core": "^10.1.2",
     "@angular/router": "^10.1.2",
+    "@ionic-native/in-app-browser": "^5.28.0",
     "@ionic/angular": "^5.3.3",
     "angular-webstorage-service": "^1.0.2"
   }

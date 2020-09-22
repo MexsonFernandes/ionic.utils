@@ -8,6 +8,7 @@ Get handy with common modules needed to build a ionic project.
 * Router
 * WebStorageService
 * LoadingController
+* InAppBrowser
 
 
 Note: Most of the code is taken from the documentation: https://ionicframework.com/docs/api
