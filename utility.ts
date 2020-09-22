@@ -1,4 +1,8 @@
-import { AlertController, LoadingController, ToastController } from "@ionic/angular";
+import {
+  AlertController,
+  LoadingController,
+  ToastController,
+} from "@ionic/angular";
 import { Router } from "@angular/router";
 import { LOCAL_STORAGE, WebStorageService } from "angular-webstorage-service";
 import { Inject } from "@angular/core";
@@ -9,15 +13,13 @@ export class Utility {
     private alert: AlertController,
     private router: Router,
     @Inject(LOCAL_STORAGE) private storage: WebStorageService,
-    private loading: LoadingController,
-  ) {
-    this.storage;
-  }
+    private loading: LoadingController
+  ) {}
 
-  async showLoading(message: string, duration=2000) {
+  async showLoading(message: string, duration = 2000) {
     const loading = await this.loading.create({
       message: message,
-      duration: duration
+      duration: duration,
     });
     await loading.present();
   }
@@ -68,6 +70,6 @@ export class Utility {
   }
 
   getCurrentLink() {
-    return window.location.pathname + window.location.search
+    return window.location.pathname + window.location.search;
   }
 }
