@@ -1,0 +1,30 @@
+{
+  "name": "ionic.utils",
+  "version": "1.0.0",
+  "description": "Contains all the important functions needed to build a ionic app without manually coding them.",
+  "main": "utility.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MexsonFernandes/ionic.utils.git"
+  },
+  "keywords": [
+    "Ionic",
+    "utility",
+    "npm"
+  ],
+  "author": "Mexson Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MexsonFernandes/ionic.utils/issues"
+  },
+  "homepage": "https://github.com/MexsonFernandes/ionic.utils#readme",
+  "dependencies": {
+    "@angular/core": "^10.1.2",
+    "@angular/router": "^10.1.2",
+    "@ionic/angular": "^5.3.3",
+    "angular-webstorage-service": "^1.0.2"
+  }
+}
